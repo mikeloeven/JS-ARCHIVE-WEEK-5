@@ -21,20 +21,20 @@ $.fn.btnAnimate = function () {
 		$("#Btn1").on("click",function(){
 				$("#placeHolder,#nav1,#nav2,#nav3,#nav4").hide(200);
 				$("#nav1").show(200);
-				#("#nav1").class = "contentbox";
+				#("#nav1").className = "contentbox";
 		});
 		$("#Btn2").on("click",function(){
 				$("#placeHolder,#nav1,#nav2,#nav3,#nav4").hide(200);
 				$("#nav2").show(200);
-				#("#nav2").class = "contentbox";
+				#("#nav2").className = "contentbox";
 		});
 		$("#Btn3").on("click",function(){
 				$("#placeHolder,#nav1,#nav2,#nav3,#nav4").hide(200);
 				$("#nav3").show(200);
-				#("#nav3").class = "contentbox";
+				#("#nav3").className = "contentbox";
 		});
 		$("#Btn4").on("click",function(){
 				$("#placeHolder,#nav1,#nav2,#nav3,#nav4").hide(200);
 				$("#nav4").show(200);
-				#("#nav4").class = "contentbox";
+				#("#nav4").className = "contentbox";
 		});
