@@ -17,7 +17,7 @@ $.fn.btnAnimate = function () {
 		$("#Btn3").on("mouseover", $("#Btn3").btnAnimate());
 		$("#Btn4").on("mouseover", $("#Btn4").btnAnimate());
 		
-/*Button Clicks to show and hide divs*/
+/*Button Clicks to show and hide divs using jquery*/
 		$("#Btn1").on("click",function(){
 				$("#placeHolder,#nav1,#nav2,#nav3,#nav4").hide(200);
 				$("#nav1").show(200);
